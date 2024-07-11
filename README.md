@@ -1,5 +1,7 @@
 # Lane Detection with UNet
 
+![Inference Videos](https://github.com/AnshChoudhary/Lane-Detection-UNet/blob/main/4_videos%20(1).gif)
+
 This repository contains code for training and evaluating a UNet model for lane detection using the BDD100K dataset. The project leverages PyTorch for model implementation and training, and includes scripts for preprocessing data, running inference, and evaluating model performance.
 
 ## Table of Contents
