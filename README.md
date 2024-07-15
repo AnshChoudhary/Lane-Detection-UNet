@@ -23,9 +23,15 @@ This repository contains code for training and evaluating a UNet model for lane 
 Lane detection is a crucial component of autonomous driving systems. This project implements a UNet model to accurately segment lane markings from images. The UNet architecture is well-suited for this task due to its encoder-decoder structure that captures contextual information at multiple scales.
 
 ## Dataset
+Our lane detection model is trained on the BDD100K dataset, which is ideal for this task due to:
 
-The BDD100K dataset is used for training and evaluating the model. It includes diverse driving scenes with various weather conditions, times of day, and road types.
+- **Diversity**: It covers a wide range of driving scenarios, weather conditions, and times of day.
+- **Rich Annotations**: It includes detailed annotations for lane markings, drivable areas, and objects.
+- **Real-world Data**: Captured from real-world driving, ensuring the model generalizes well to actual driving conditions.
+- **High Quality**: Provides high-resolution images necessary for accurate detection.
+- **Community Support**: Widely used in the research community, providing benchmarks and continuous improvements.
 
+By leveraging BDD100K, our model can perform lane detection effectively under various conditions, ensuring robust performance in all weather and lighting scenarios.
 - Download the dataset from [BDD100K website](https://bdd-data.berkeley.edu/)
 
 ## Model Architecture
