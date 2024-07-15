@@ -115,8 +115,9 @@ The model was evaluated on the following metrics over the validation set:
 - Validation F1 Score: 0.9967
 
 Here's a look at the model's predicted mask being compared to the ground truth mask on a sample image:
-![Video Inference](https://github.com/AnshChoudhary/Lane-Detection-UNet/blob/main/output_input3_with_yolo_light.gif)
 
 ![Single Inference](https://github.com/AnshChoudhary/Lane-Detection-UNet/blob/main/Inference-PredMask.png)
 
 Here's a look at a sample output video that overlays the lane detection mask from the trained model and performs YOLO object detections on cars, pedestrians, traffic lights, etc.:
+
+![Video Inference](https://github.com/AnshChoudhary/Lane-Detection-UNet/blob/main/output_input3_with_yolo_light.gif)
