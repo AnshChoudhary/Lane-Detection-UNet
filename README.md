@@ -108,3 +108,14 @@ To run inference on a video that would output an overlayed lane detection mask +
 CUDA_VISIBLE_DEVICES=<YOUR_GPU_ID> nohup python yolo_integrated.py
 ```
 
+## Results
+The model was evaluated on the following metrics over the validation set:
+- Validation Jaccard Score (IoU): 0.9934
+- Validation Accuracy: 0.9934
+- Validation F1 Score: 0.9967
+
+Here's a look at the model's predicted mask being compared to the ground truth mask on a sample image:
+
+![Single Inference](https://github.com/AnshChoudhary/Lane-Detection-UNet/blob/main/Inference-PredMask.png)
+
+Here's a look at a sample output video that overlays the lane detection mask from the trained model and performs YOLO object detections on cars, pedestrians, traffic lights, etc.:
