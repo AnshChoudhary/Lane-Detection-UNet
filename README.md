@@ -127,3 +127,14 @@ Here's a look at the model's predicted mask being compared to the ground truth m
 Here's a look at a sample output video that overlays the lane detection mask from the trained model and performs YOLO object detections on cars, pedestrians, traffic lights, etc.:
 
 ![Video Inference](https://github.com/AnshChoudhary/Lane-Detection-UNet/blob/main/output_input3_with_yolo_light.gif)
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your changes. For major changes, please open an issue first to discuss what you would like to change.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/YourFeature`)
+3. Commit your Changes (`git commit -m 'Add some YourFeature'`)
+4. Push to the Branch (`git push origin feature/YourFeature`)
+5. Open a Pull Request
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/AnshChoudhary/Lane-Detection-UNet/blob/main/LICENSE) file for details.
