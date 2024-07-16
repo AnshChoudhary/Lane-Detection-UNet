@@ -134,7 +134,7 @@ This project can be run on a streamlit web app in order to generate output video
 
 Here's a look at the web app UI:
 
-
+![Streamlit](https://github.com/AnshChoudhary/Lane-Detection-UNet/blob/main/lane-streamlit.png)
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes. For major changes, please open an issue first to discuss what you would like to change.
