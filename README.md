@@ -15,6 +15,7 @@ This repository contains code for training and evaluating a UNet model for lane 
   - [Evaluation](#evaluation)
   - [Inference](#inference)
 - [Results](#results)
+- [Streamlit App](#streamlit-app)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -127,6 +128,13 @@ Here's a look at the model's predicted mask being compared to the ground truth m
 Here's a look at a sample output video that overlays the lane detection mask from the trained model and performs YOLO object detections on cars, pedestrians, traffic lights, etc.:
 
 ![Video Inference](https://github.com/AnshChoudhary/Lane-Detection-UNet/blob/main/output_input3_with_yolo_light.gif)
+
+## Streamlit App
+This project can be run on a streamlit web app in order to generate output videos that overlay the lane detection mask from the trained model and perform YOLO object detections. The user will be able to upload a video in avi, mov, mp4 formats and will have control over various parameterssuch as YOLO confidence threshold, detection transparency, interpolation factor, etc. 
+
+Here's a look at the web app UI:
+
+
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes. For major changes, please open an issue first to discuss what you would like to change.
