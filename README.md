@@ -143,7 +143,7 @@ def moving_average_2d(data, window_size):
 This function calculates the moving average along the first axis of the 2D data array, which could represent the mask or some other processed frame data, smoothing the transitions and making the lane detection more robust. You can also adjust the blending alpha parameter for blending the original and smoothed masks and the moving average window size to define the size of the window of frames used for calculating the average. 
 
 ## Streamlit App
-This project can be run on a streamlit web app in order to generate output videos that overlay the lane detection mask from the trained model and perform YOLO object detections. The user will be able to upload a video in avi, mov, mp4 formats and will have control over various parameterssuch as YOLO confidence threshold, detection transparency, interpolation factor,  etc. 
+This project can be run on a streamlit web app in order to generate output videos that overlay the lane detection mask from the trained model and perform YOLO object detections. The user will be able to upload a video in avi, mov, mp4 formats and will have control over various parameters such as YOLO confidence threshold, detection transparency, interpolation factor,  etc. 
 
 - **Moving Average Filtering** has also been added to the streamlit app and users can adjust the blending alpha parameter and the moving average window size withing the streamlit web app controls.
 
