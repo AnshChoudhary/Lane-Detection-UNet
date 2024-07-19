@@ -165,6 +165,11 @@ Here's a look at the web app UI:
 
 ![Streamlit](https://github.com/AnshChoudhary/Lane-Detection-UNet/blob/main/streamlit-final.png)
 
+To run the streamlit app, run the following in terminal:
+```bash
+streamlit run streamlit-dynamic.py
+```
+
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes. For major changes, please open an issue first to discuss what you would like to change.
 1. Fork the Project
