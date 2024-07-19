@@ -159,7 +159,7 @@ def dynamic_window_size_adjustment(mask, base_window_size, min_window_size, max_
 ## Streamlit App
 This project can be run on a streamlit web app in order to generate output videos that overlay the lane detection mask from the trained model and perform YOLO object detections. The user will be able to upload a video in avi, mov, mp4 formats and will have control over various parameters such as YOLO confidence threshold, detection transparency, interpolation factor,  etc. 
 
-- **Moving Average Filtering** has also been added to the streamlit app and users can adjust the blending alpha parameter and the moving average window size within the streamlit web app controls.
+- **Moving Average Filtering** has also been added to the streamlit app and users can adjust the blending alpha parameter and the base, min, and max moving average window sizes within the streamlit web app controls.
 
 Here's a look at the web app UI:
 
