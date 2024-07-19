@@ -145,7 +145,7 @@ This function calculates the moving average along the first axis of the 2D data 
 ## Streamlit App
 This project can be run on a streamlit web app in order to generate output videos that overlay the lane detection mask from the trained model and perform YOLO object detections. The user will be able to upload a video in avi, mov, mp4 formats and will have control over various parameters such as YOLO confidence threshold, detection transparency, interpolation factor,  etc. 
 
-- **Moving Average Filtering** has also been added to the streamlit app and users can adjust the blending alpha parameter and the moving average window size withing the streamlit web app controls.
+- **Moving Average Filtering** has also been added to the streamlit app and users can adjust the blending alpha parameter and the moving average window size within the streamlit web app controls.
 
 Here's a look at the web app UI:
 
