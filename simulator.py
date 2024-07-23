@@ -15,7 +15,7 @@ key_press_count = {"left": 0, "right": 0}
 
 def capture_screen():
     sct = mss()
-    monitor = {"top": 500, "left": 470, "width": 500, "height": 300}
+    monitor = {"top": 345, "left": 500, "width": 440, "height": 210}
     screenshot = np.array(sct.grab(monitor))
     return cv2.cvtColor(screenshot, cv2.COLOR_RGBA2RGB)
 
